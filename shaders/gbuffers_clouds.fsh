@@ -23,7 +23,7 @@ uniform int isEyeInWater;
 varying vec4 color;
 //Diffuse texture coordinates.
 varying vec2 coord0;
-#include "skyColor.glsl"
+#include "lib/skyColor.glsl"
 
 /* DRAWBUFFERS: 4 */
 layout(location = 0) out vec4 clouds;

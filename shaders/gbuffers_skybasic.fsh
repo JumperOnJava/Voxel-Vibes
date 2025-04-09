@@ -25,7 +25,7 @@ varying vec4 color;
 varying vec4 coord0;
 
 
-#include "skycolor.glsl"
+#include "lib/skyColor.glsl"
 
 void main()
 {
